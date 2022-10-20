@@ -60,5 +60,5 @@ select category_id,count(*) Total from production.products group by category_id
 
 select product_name , count(*) Total from production.products where  model_year=2016 group by product_name order by product_name desc
 
---having clause
+
 
