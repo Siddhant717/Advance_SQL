@@ -33,3 +33,4 @@ delete from Employee where Name='Akhilesh'
 rollback
 commit
 
+select * from data
